@@ -35,10 +35,9 @@ Difficulties :
 
 1. Understanding the dataset to know which table keys to use in my joins and how the tables are connected.
 
- I was able to get more context about the dataset by creating a data dictionary, therefore allowing me to have a reference point about the dataset I'm working with
-
+   I was able to get more context about the dataset by creating a data dictionary, therefore allowing me to have a reference point about the dataset I'm working with
 2. Error and Null Handling
-3. I had to think about the edge cases where the null will skew the calculation to I used (coalesce and Nullif ) where relevant to handle the null values 
+   I had to think about the edge cases where the null will skew the calculation to I used (coalesce and Nullif ) where relevant to handle the null values 
 
 
 
