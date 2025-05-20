@@ -14,7 +14,7 @@ WITH frequent_transactions AS (
 customer_averages AS (
     SELECT
         customer_id,
-        COALESCE(AVG(transactions_count), 0) AS avg_transactions_per_month -- NUll Handling
+        COALESCE(AVG(transactions_count), 0) AS avg_transactions_per_month -- To Handle NUll Values
     FROM
         frequent_transactions
     GROUP BY
