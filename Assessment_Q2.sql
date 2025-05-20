@@ -34,3 +34,6 @@ GROUP BY
     frequency_category
 ORDER BY 
     FIELD(frequency_category, 'High Frequency', 'Medium Frequency', 'Low Frequency'); -- Sort correctly
+
+
+
